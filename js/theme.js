@@ -1,5 +1,6 @@
 const cssTheme = document.getElementById("css-theme");
 const slider = document.querySelector(".slider");
+const buttons = document.querySelectorAll("button");
 let currentTheme = 1;
 
 slider.addEventListener("click", () => {

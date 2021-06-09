@@ -31,15 +31,6 @@ body {
   background-color: #1d0934;
 }
 
-.buttons button:hover {
-  -webkit-box-shadow: 0px 0px 2px 0px black;
-          box-shadow: 0px 0px 2px 0px black;
-  -webkit-transition: -webkit-box-shadow 0.15s ease-in-out;
-  transition: -webkit-box-shadow 0.15s ease-in-out;
-  transition: box-shadow 0.15s ease-in-out;
-  transition: box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
 .buttons .all-color {
   background-color: #341c4f;
   -webkit-box-shadow: 0px 5px 0px 0px #871c9c;
