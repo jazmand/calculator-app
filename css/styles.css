@@ -57,8 +57,12 @@ body {
           align-items: flex-end;
 }
 
+.calculator .header .theme .theme-title {
+  font-size: 0.7rem;
+}
+
 .calculator .header .theme .theme-chooser {
-  padding-left: 1rem;
+  padding-left: 1.2rem;
 }
 
 .calculator .header .theme .options {
@@ -69,17 +73,17 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 3px 3px 3px;
-  font-size: 0.9rem;
 }
 
 .calculator .header .theme .options p {
   margin: 0;
+  font-size: 0.7rem;
 }
 
 .calculator .header .theme .slider {
   background-color: #232c43;
   border-radius: 40px;
-  width: 45px;
+  width: 50px;
   cursor: pointer;
 }
 
@@ -142,21 +146,27 @@ body {
 }
 
 .calculator .buttons button {
+  height: 65px;
   cursor: pointer;
-  font-size: 32px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #eae3dc;
+  -webkit-box-shadow: 0px 5px 0px 0px #b4a597;
+          box-shadow: 0px 5px 0px 0px #b4a597;
   color: #444b5a;
   border-radius: 10px;
-  height: 70px;
+  border: none;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 32px;
 }
 
 .calculator .buttons button:hover {
-  background-color: #eae3dc;
-  -webkit-box-shadow: #b4a597;
-          box-shadow: #b4a597;
+  -webkit-box-shadow: 0px 0px 2px 0px black;
+          box-shadow: 0px 0px 2px 0px black;
+  -webkit-transition: -webkit-box-shadow 0.15s ease-in-out;
+  transition: -webkit-box-shadow 0.15s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .calculator .buttons .span-2 {
@@ -165,15 +175,17 @@ body {
 
 .calculator .buttons .single-color {
   background-color: #d03f2f;
-  -webkit-box-shadow: #93261a;
-          box-shadow: #93261a;
+  -webkit-box-shadow: 0px 5px 0px 0px #93261a;
+          box-shadow: 0px 5px 0px 0px #93261a;
   color: white;
+  font-size: 1.2rem;
 }
 
 .calculator .buttons .double-color {
   background-color: #637097;
-  -webkit-box-shadow: #404e72;
-          box-shadow: #404e72;
+  -webkit-box-shadow: 0px 5px 0px 0px #404e72;
+          box-shadow: 0px 5px 0px 0px #404e72;
   color: white;
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=styles.css.map */
