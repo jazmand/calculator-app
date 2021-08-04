@@ -12,6 +12,7 @@ Live link located [here](https://jazmand.github.io/calculator-app/index.html).
 - Includes options for addition, subtraction, multiplication, and division
 - Ability to delete most recent inputted single value, as well as reset/clear entire value
 - Three themes to choose from that can be cycled through
+- Mobile responsive
 
 ## Tech Used / Dependencies
 
